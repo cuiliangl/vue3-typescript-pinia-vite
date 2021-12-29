@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+/* 浅色模式 */
+html {
+  --bgc-color: #fff;
+  --text-color: #000;
+}
+
+html.dark {
+  --bgc-color: #000;
+  --text-color: #fff;
+}

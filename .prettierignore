@@ -1,0 +1,20 @@
+ /node_modules
+/dist
+/pbulic
+.husky
+/src/api/server/**/*
+**/*.svg
+.DS_Store
+.eslintignore
+*.png
+*.gif
+*.jpg
+*.jpeg
+*.toml
+.editorconfig
+.gitignore
+.prettierignore
+LICENSE
+.eslintcache
+*.lock
+yarn-error.log

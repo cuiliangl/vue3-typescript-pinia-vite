@@ -1,0 +1,12 @@
+node_modules
+dist
+types
+/src/api/server/**/*
+.vscode
+.husky
+*.woff
+*.ttf
+*.sh
+*.scss
+*.css
+*.svg

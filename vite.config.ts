@@ -20,7 +20,7 @@ export default defineConfig({
       '@': resolve('src'),
       views: resolve('src/views'),
       store: resolve('src/store'),
-      http: resolve('src/api/index.ts'),
+      api: resolve('src/api/index.ts'),
       interface: resolve('src/interface')
     }
   },

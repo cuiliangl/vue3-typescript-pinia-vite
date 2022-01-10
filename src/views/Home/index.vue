@@ -7,9 +7,16 @@
 </template>
 
 <script lang="ts" setup>
+import http from 'api'
 import { useHomeStore } from '@/store/modules'
 
 const homeStore = useHomeStore()
+
+const getUserInfo = async () => {
+  const res = await http.getUserInfo({ id: 4 })
+
+  console.log(res)
+}
 
 const addAge = () => {
   homeStore.userInfo.age++
@@ -22,6 +29,8 @@ const updateInfo = () => {
     }
   })
 }
+
+getUserInfo()
 </script>
 
 <style lang="scss" scoped>

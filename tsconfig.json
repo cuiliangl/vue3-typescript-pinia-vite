@@ -15,7 +15,7 @@
       "@/*": ["src/*"],
       "views/*": ["src/views/*"],
       "store/*": ["src/store/*"],
-      "http": ["src/api/index.ts"],
+      "api": ["src/api/index.ts"],
       "interface": ["src/interface/*"]
     }
   },
